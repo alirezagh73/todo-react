@@ -9,6 +9,15 @@ npm i
 npm start
 ```
 
+
+
+## Demo
+
+
+
+[Todo App](https://angry-pike-db34e5.netlify.app/)
+
+
     
 ## Features
 
@@ -24,9 +33,3 @@ npm start
 
 - [Alireza Gharghabi](https://github.com/alirezagh73)
 
-
-## Demo
-
-
-
-[Todo App](https://alirezagh73.github.io/todo-react//)
