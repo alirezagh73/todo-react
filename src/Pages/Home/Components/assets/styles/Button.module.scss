@@ -1,0 +1,22 @@
+button {
+  background: #F5F5FA;
+  border: none;
+  font-size: 1.2rem;
+  height: 50px;
+  padding: 0px 60px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: all .2s ease;
+  color: #916219;
+
+  &:active {
+    transform: scale(.9);
+  }
+
+  &:hover {
+    color: #916219;
+    font-size: 1.3rem;
+
+  }
+}

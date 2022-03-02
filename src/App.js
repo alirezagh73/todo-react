@@ -1,0 +1,12 @@
+import {HomePage} from "./Pages";
+import React from "react";
+
+function App() {
+    return (
+        <>
+            <HomePage/>
+        </>
+    );
+}
+
+export default App;

@@ -1,0 +1,35 @@
+@import "./../../../assets/responsive";
+
+input {
+
+  background: linear-gradient(
+                  315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -4.08333px -4.08333px 12.25px #ffffff, 6.125px 6.125px 12.25px rgb(174 174 192 / 40%), inset 0px 0px 0px 1px rgb(255 255 255 / 20%);
+
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  height: 56px;
+  border: none;
+  @include sm() {
+    height: 45px;
+    &[name='title'] {
+      min-width: 530px;
+    }
+    &[name='endDate'] {
+      min-width: 530px;
+    }
+
+    &[name='desc'] {
+      min-width: 520px;
+    }
+    margin-top: 0px !important;
+
+  }
+  @include md() {
+    &[name='desc'] {
+      min-width: 900px;
+    }
+  }
+}

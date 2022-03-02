@@ -1,0 +1,65 @@
+.Conditions_column_card {
+  max-width: 260px;
+  min-height: 290px;
+  background: linear-gradient(315deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F0F1F5;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -4.08333px -4.08333px 12.25px #FFFFFF, 6.125px 6.125px 12.25px rgba(174, 174, 192, 0.4), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  margin: 20px auto;
+
+  transform: translate(0);
+
+  &:hover {
+    animation: shake 2s linear;
+  }
+
+  @keyframes shake {
+    25% {
+      transform: translate(3px, 3px);
+    }
+    50% {
+      transform: translate(0);
+    }
+    75% {
+      transform: translate(-3px, -3px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  &_title {
+
+  }
+
+  &_body {
+    text-align: left;
+
+    p {
+      span:first-child {
+        color: #916219;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  &_btn {
+    button {
+
+      padding: 0;
+      width: 55px;
+      height: 55px;
+      font-size: 1.1rem;
+      position: relative;
+
+      > * {
+        font-size: 1.5rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    }
+  }
+}

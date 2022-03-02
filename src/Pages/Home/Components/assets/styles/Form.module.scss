@@ -1,0 +1,16 @@
+@import "./../../../assets/responsive";
+
+.inputs {
+  font-weight: bold;
+  @include md() {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px!important;
+  }
+
+  &_btn {
+    text-align: center;
+  }
+}
